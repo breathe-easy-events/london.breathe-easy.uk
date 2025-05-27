@@ -1,0 +1,123 @@
+:root {
+  --green-ish: #e0e28c;
+  --pink: #ff5099;
+  --faq-width: 80%;
+}
+
+@font-face {
+  font-family: Gliker;
+  src: url(fonts/Gliker-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(fonts/Inter.tff);
+}
+
+body {
+    font-family: Gliker;
+    font-size: large;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+#container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+article, section.faqs h2 {
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+}
+
+section.logo {
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+section.logo img {
+    width: 50%;
+}
+
+article.event {
+    background-color: #facb4f;
+    width: 80%;
+}
+
+article.call-to-action {
+    background-color: var(--green-ish);
+    width: 90%;
+    font-size: x-large;
+}
+
+section.faqs {
+    background-color: #cdaedf;
+    padding: 10px;
+}
+
+section.faqs h2 {
+    background-color: var(--green-ish);
+    font-size: xx-large;
+    font-weight: bold;
+    width: 350px;
+}
+
+article.faq {
+    background-color: var(--green-ish);
+    width: var(--faq-width);
+    font-size: xx-large;
+}
+
+article.faq-answer {
+    background-color: white;
+    font-family: Inter;
+    text-align: left;
+    width: var(--faq-width);
+}
+
+section.image {
+    background-color: var(--pink);
+    text-align: center;
+    padding: 20px;
+}
+
+section.image img {
+    border-radius: 40px;
+}
+
+section.image img.horizontal {
+    width: 90%;
+}
+
+section.image img.vertical {
+    width: 60%;
+}
+
+section.contact {
+    padding-top: 20px;
+}
+
+article.contact {
+    background-color: var(--pink);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    width: 80%;
+}
+
+article.contact a {
+    color: white;
+}
+
+iframe.instagram-media, section.instagram-media blockquote {
+    margin: auto !important;
+    margin-bottom: 20px !important;
+}
