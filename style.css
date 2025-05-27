@@ -1,12 +1,18 @@
 :root {
   --green-ish: #e0e28c;
   --pink: #ff5099;
+  --yellow-ish: #facb4f;
   --faq-width: 80%;
 }
 
 @font-face {
   font-family: Gliker;
   src: url(fonts/Gliker-Regular.ttf);
+}
+
+@font-face {
+  font-family: Gliker-Black;
+  src: url(fonts/Gliker-Black.ttf);
 }
 
 @font-face {
@@ -29,7 +35,7 @@ a {
     margin: auto;
 }
 
-article, section.faqs h2 {
+article, section h2 {
     padding: 20px;
     border-radius: 20px;
     margin-bottom: 20px;
@@ -48,9 +54,23 @@ section.logo img {
     width: 50%;
 }
 
+section h2 {
+    font-size: xx-large;
+    font-weight: bold;
+    width: 350px;
+}
+
+section.events h2 {
+    background-color: var(--yellow-ish);
+}
+
 article.event {
-    background-color: #facb4f;
+    background-color: var(--yellow-ish);
     width: 80%;
+}
+
+.event-info {
+    font-family: Gliker-Black;
 }
 
 article.call-to-action {
@@ -66,9 +86,6 @@ section.faqs {
 
 section.faqs h2 {
     background-color: var(--green-ish);
-    font-size: xx-large;
-    font-weight: bold;
-    width: 350px;
 }
 
 article.faq {
