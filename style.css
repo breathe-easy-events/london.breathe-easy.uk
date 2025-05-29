@@ -28,6 +28,7 @@ body {
 a {
     color: black;
     text-decoration: none;
+    font-weight: bold;
 }
 
 #container {
