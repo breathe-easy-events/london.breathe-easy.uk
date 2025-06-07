@@ -124,6 +124,24 @@
                 </blockquote>
                 <script src="https://www.instagram.com/embed.js"></script>
             </section>
+            <section class="substack">
+                <h2>Recent Substack posts</h2>
+                <div id="substack-feed-embed"></div>
+                <script>
+                    window.SubstackFeedWidget = {
+                      substackUrl: "breatheeasylondon.substack.com",
+                      posts: 3,
+                      layout: "center",
+                      hidden: ["date"],
+                      colors: {
+                        primary: "#000000",
+                        secondary: "#000000",
+                        background: "var(--substack-background)",
+                      }
+                  };
+                </script>
+                <script src="https://substackapi.com/embeds/feed.js" async></script>
+            </section>
             <section class="faqs">
                 <h2>FAQS</h2>
                 <article class="faq">

@@ -3,6 +3,7 @@
   --pink: #ff5099;
   --yellow-ish: #facb4f;
   --faq-width: 80%;
+  --substack-background: var(--green-ish);
 }
 
 @font-face {
@@ -135,7 +136,25 @@ article.contact a {
     color: white;
 }
 
-iframe.instagram-media, section.instagram-media blockquote {
+iframe.instagram-media, section.instagram-media blockquote, section.substack {
     margin: auto !important;
     margin-bottom: 20px !important;
+}
+
+section.substack {
+    background-color: var(--substack-background);
+    max-width: 60%;
+    border-radius: 20px;
+}
+
+section.substack h2 {
+    width: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.substack-feed-widget {
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
 }
