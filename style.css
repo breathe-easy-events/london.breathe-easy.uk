@@ -127,7 +127,7 @@ section.contact {
 article.contact {
     background-color: var(--pink);
     color: white;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 5px black;
     width: 80%;
 }
 
