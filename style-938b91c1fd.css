@@ -1,6 +1,7 @@
 :root {
   --green-ish: #e0e28c;
   --pink: #ff5099;
+  --purple: #cdaedf;
   --yellow-ish: #facb4f;
   --faq-width: 80%;
   --substack-background: var(--green-ish);
@@ -82,7 +83,7 @@ article.call-to-action {
 }
 
 section.faqs {
-    background-color: #cdaedf;
+    background-color: var(--purple);
     padding: 10px;
 }
 
@@ -157,4 +158,19 @@ section.substack h2 {
     width: 80%;
     padding: 20px;
     box-sizing: border-box;
+}
+
+section.press {
+    background-color: var(--green-ish);
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+section.press h2 {
+    background-color: var(--purple);
+}
+
+section.press article {
+    background-color: var(--purple);
+    width: 60%;
 }
